@@ -3,7 +3,7 @@
 
 // إعدادات قاعدة البيانات
 define('DB_HOST', getenv('MYSQLHOST') ?: 'shuttle.proxy.rlwy.net:57553');
-define('DB_NAME', getenv('MYSQLDATABASE') ?: 'railway');
+define('DB_NAME', getenv('MYSQLDATABASE') ?: 'sms_api');
 define('DB_USER', getenv('MYSQLUSER') ?: 'root');
 define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'ggWywOVTrlqIEpeNNwKaMcakKARgmyqZ');
 
