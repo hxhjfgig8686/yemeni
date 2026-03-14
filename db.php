@@ -1,5 +1,5 @@
 <?php
-// api/db.php
+// db.php
 
 require_once __DIR__ . '/config.php';
 
