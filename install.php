@@ -1,8 +1,8 @@
 <?php
 // install.php
 
-require_once __DIR__ . '/api/config.php';
-require_once __DIR__ . '/api/db.php';
+require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/db.php';
 
 echo "<pre style='direction: ltr; background: #f4f4f4; padding: 20px; font-family: monospace;'>";
 echo "馃殌 亘丿亍 鬲孬亘賷鬲 賳馗丕賲 SMS API...\n\n";
