@@ -1,5 +1,5 @@
 <?php
-// api/config.php
+// config.php
 
 // إعدادات قاعدة البيانات
 define('DB_HOST', getenv('MYSQLHOST') ?: 'shuttle.proxy.rlwy.net');
