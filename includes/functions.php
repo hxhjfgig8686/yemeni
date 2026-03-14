@@ -1,5 +1,5 @@
 <?php
-// api/functions.php
+// functions.php
 
 function sendResponse($data, $status = 200) {
     http_response_code($status);
