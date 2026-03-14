@@ -2,10 +2,10 @@
 // api/config.php
 
 // إعدادات قاعدة البيانات
-define('DB_HOST', getenv('MYSQLHOST') ?: 'turntable.proxy.rlwy.net:44538');
-define('DB_NAME', getenv('MYSQLDATABASE') ?: 'sms_api');
+define('DB_HOST', getenv('MYSQLHOST') ?: 'nozomi.proxy.rlwy.net:43383');
+define('DB_NAME', getenv('MYSQLDATABASE') ?: 'railway');
 define('DB_USER', getenv('MYSQLUSER') ?: 'root');
-define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'MWxtaRlnfpdUhriNfGajfAScKkkERknf');
+define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'UKLpmzMwfOhhIwNTXzmBqXZMXIwuJoTU');
 
 // إعدادات عامة
 define('API_DEBUG', true);
