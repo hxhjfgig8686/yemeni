@@ -1,0 +1,13 @@
+# .htaccess
+RewriteEngine On
+
+# منع الوصول للملفات الحساسة
+<FilesMatch "\.(sql|log|ini|sh|bak|php~)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# إعادة التوجيه
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
