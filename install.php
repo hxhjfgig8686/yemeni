@@ -5,7 +5,7 @@ require_once __DIR__ . '/api/config.php';
 require_once __DIR__ . '/api/db.php';
 
 echo "<pre style='direction: ltr; background: #f4f4f4; padding: 20px; font-family: monospace;'>";
-echo "馃殌 亘丿亍 鬲孬亘賷鬲 賳馗丕賲 SMS API...\n\n";
+echo "馃殌 亘丿亍 鬲孬亘賷鬲 賳馗丕賲 railway...\n\n";
 
 try {
     // 毓乇囟 賲毓賱賵賲丕鬲 丕賱丕鬲氐丕賱
