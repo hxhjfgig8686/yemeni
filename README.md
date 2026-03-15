@@ -25,5 +25,5 @@
 ## 馃惓 丕賱鬲卮睾賷賱 賲毓 Docker
 
 ```bash
-docker build -t sms-api .
-docker run -p 80:80 sms-api
+docker build -t railway .
+docker run -p 80:80 railway
