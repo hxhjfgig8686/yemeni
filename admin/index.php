@@ -1,10 +1,3 @@
-
----
-
-## 馃憫 **賲噩賱丿 admin/**
-
-### **admin/index.php (氐賮丨丞 鬲爻噩賷賱 丕賱丿禺賵賱)**
-```php
 <?php
 // admin/index.php
 session_start();
