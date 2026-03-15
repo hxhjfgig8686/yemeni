@@ -2,10 +2,10 @@
 // api/config.php
 
 // إعدادات قاعدة البيانات
-define('DB_HOST', getenv('MYSQLHOST') ?: 'crossover.proxy.rlwy.net:44787/sms_api');
+define('DB_HOST', getenv('MYSQLHOST') ?: 'trolley.proxy.rlwy.net:39171/railway');
 define('DB_NAME', getenv('MYSQLDATABASE') ?: 'sms_api');
 define('DB_USER', getenv('MYSQLUSER') ?: 'root');
-define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'kEbnuKRdQMQRjweTWlMjzfQStuShbjZm');
+define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'wePdlntsWbnsVrPlHEejxDIgjwYMmnSd');
 
 // إعدادات عامة
 define('API_DEBUG', true);
