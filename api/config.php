@@ -2,7 +2,7 @@
 // api/config.php
 
 // إعدادات قاعدة البيانات
-define('DB_HOST', getenv('MYSQLHOST') ?: 'nozomi.proxy.rlwy.net:43383');
+define('DB_HOST', getenv('MYSQLHOST') ?: 'nozomi.proxy.rlwy.net:43383/railway');
 define('DB_NAME', getenv('MYSQLDATABASE') ?: 'railway');
 define('DB_USER', getenv('MYSQLUSER') ?: 'root');
 define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'UKLpmzMwfOhhIwNTXzmBqXZMXIwuJoTU');
