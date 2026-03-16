@@ -2,10 +2,10 @@
 // api/config.php
 
 // إعدادات قاعدة البيانات
-define('DB_HOST', getenv('MYSQLHOST') ?: 'trolley.proxy.rlwy.net:39171');
+define('DB_HOST', getenv('MYSQLHOST') ?: 'mysql.railway.internal:3306/railway');
 define('DB_NAME', getenv('MYSQLDATABASE') ?: 'railway');
 define('DB_USER', getenv('MYSQLUSER') ?: 'root');
-define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'wePdlntsWbnsVrPlHEejxDIgjwYMmnSd');
+define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'dDFlFpJxoxxRYhKtevZJDEKwXUWYvfPH');
 
 // إعدادات عامة
 define('API_DEBUG', true);
