@@ -9,7 +9,7 @@ if (!DATABASE_URL) {
 }
 
 $parts = parse_url(DATABASE_URL);
-define('DB_HOST', $parts['host']?? postgresql://sms_api_user:U30dJ4ty5HXDeAJfMfmGbxInOxpiQZDM@dpg-d6s9qvjuibrs73e7oklg-a/sms_api);
+define('DB_HOST', $parts['host']?? 'postgresql://sms_api_user:U30dJ4ty5HXDeAJfMfmGbxInOxpiQZDM@dpg-d6s9qvjuibrs73e7oklg-a/sms_api');
 define('DB_PORT', $parts['port'] ?? 5432);
 define('DB_NAME', ltrim($parts['path'] ?? 'sms_api', '/'));
 define('DB_USER', $parts['user'] ?? 'sms_api_user');
