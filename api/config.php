@@ -2,7 +2,7 @@
 // api/config.php
 
 // PostgreSQL on Render
-define('DATABASE_URL', getenv('DATABASE_URL') ?: 'dpg-d6s9qvjuibrs73e7oklg-a/sms_api');
+define('DATABASE_URL', getenv('DATABASE_URL') ?: 'postgresql://sms_api_user:U30dJ4ty5HXDeAJfMfmGbxInOxpiQZDM@dpg-d6s9qvjuibrs73e7oklg-a/sms_api');
 
 if (!DATABASE_URL) {
  die('DATABASE_URL is missing in Render Environment Variables.');
@@ -11,9 +11,9 @@ if (!DATABASE_URL) {
 $parts = parse_url(DATABASE_URL);
 define('DB_HOST', $parts['host']);
 define('DB_PORT', $parts['port'] ?? 5432);
-define('DB_NAME', ltrim($parts['path'] ?? '', '/'));
+define('DB_NAME', ltrim($parts['path'] ?? 'sms_api', '/'));
 define('DB_USER', $parts['user'] ?? 'sms_api_user');
-define('DB_PASS', $parts['pass'] ?? 'U30dJ4ty5HXDeAJfMfmGbxInOxpiQZDM');
+define('DB_PASSWORD', $parts['password'] ?? 'U30dJ4ty5HXDeAJfMfmGbxInOxpiQZDM');
 
 // إعدادات عامة
 define('API_DEBUG', true);
