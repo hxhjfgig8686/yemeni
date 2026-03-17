@@ -1,7 +1,7 @@
 -- install.sql
 -- إنشاء قاعدة البيانات
-CREATE DATABASE IF NOT EXISTS railway;
-USE railway;
+CREATE DATABASE IF NOT EXISTS sms_api;
+USE sms_api;
 
 -- جدول المستخدمين (للـ API)
 CREATE TABLE IF NOT EXISTS users (
